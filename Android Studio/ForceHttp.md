@@ -11,5 +11,6 @@ if exists
   sdkman.force.http=true
 else
 
-create androidtool.cfg and add the following line:
+create androidtool.cfg 
+then add the following line:
 <pre>
