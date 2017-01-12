@@ -25,3 +25,7 @@ npm start — —reset-cache
 ```
 
 - Clean ios Build folder
+
+## Android signing
+
+[Generating Signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)
