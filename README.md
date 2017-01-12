@@ -28,4 +28,6 @@ npm start — —reset-cache
 
 ## Android signing
 
-[Generating Signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)
+- [Generating Signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)
+
+- [Storing key passwords in osx keychain](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/)
