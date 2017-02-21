@@ -31,3 +31,8 @@ npm start — —reset-cache
 - [Generating Signed APK](https://facebook.github.io/react-native/docs/signed-apk-android.html)
 
 - [Storing key passwords in osx keychain](https://pilloxa.gitlab.io/posts/safer-passwords-in-gradle/)
+
+## List iOS sims and launch specific one:
+
+Get list from command prompt: >> instruments -w help
+Launch specific from list: >> instruments -w "iPhone 5 (10.2) - Simulator"
