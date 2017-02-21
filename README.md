@@ -34,5 +34,6 @@ npm start — —reset-cache
 
 ## List iOS sims and launch specific one:
 
-Get list from command prompt: >> instruments -w help
-Launch specific from list: >> instruments -w "iPhone 5 (10.2) - Simulator"
+- Get list from command prompt: >> instruments -w help
+
+- Launch specific from list: >> instruments -w "iPhone 5 (10.2) - Simulator"
