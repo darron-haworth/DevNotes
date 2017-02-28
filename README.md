@@ -37,3 +37,10 @@ npm start — —reset-cache
 - Get list from command prompt: >> instruments -w help
 
 - Launch specific from list: >> instruments -w "iPhone 5 (10.2) - Simulator"
+
+### MOV to GIF from command line:
+brew install ffmpeg
+brew install gifsicle
+cd to directory with mov file
+run:
+ffmpeg -i TouchID.mov -s 414x736 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > TouchID.gif
