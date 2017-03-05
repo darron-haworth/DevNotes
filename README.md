@@ -45,3 +45,8 @@ cd to directory with mov file
 run:
 ffmpeg -i TouchID.mov -s 414x736 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > TouchID.gif 
 FROM: https://gist.github.com/dergachev/4627207 
+
+
+### Build Android in release
+
+react-native run-android --configuration release
