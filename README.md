@@ -44,7 +44,9 @@ brew install gifsicle
 cd to directory with mov file
 run:
 
+```javascript
 ffmpeg -i text.mov -s 414x736 -pix_fmt rgb24 -r 12 -f gif - | gifsicle --optimize=3 --delay=5 > test.gif
+```
 
 -r is frames per second -r 12 drops framerate from default 25 to 12
 
