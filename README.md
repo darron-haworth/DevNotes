@@ -43,7 +43,11 @@ brew install ffmpeg
 brew install gifsicle
 cd to directory with mov file
 run:
-ffmpeg -i TouchID.mov -s 414x736 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > TouchID.gif 
+
+ffmpeg -i text.mov -s 414x736 -pix_fmt rgb24 -r 12 -f gif - | gifsicle --optimize=3 --delay=5 > test.gif
+
+-r is frames per second -r 12 drops framerate from default 25 to 12
+
 FROM: https://gist.github.com/dergachev/4627207 
 
 
