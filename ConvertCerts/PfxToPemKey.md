@@ -13,7 +13,9 @@ Using Open SSL, you can extract the certificate and private key.
 
 To extract the private key from a .pfx file, run the following OpenSSL command:
 
+```
 openssl pkcs12 -in cert.pfx -nocerts -out pk.pem
+```
 
 The private key that you have extracted will be encrypted, to unencrypt the file so that it can be used, 
 you want to run the following command:
