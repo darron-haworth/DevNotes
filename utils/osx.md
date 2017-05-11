@@ -2,7 +2,7 @@
 
 ## Tree
 
-Intall:
+Install:
 ```
 brew install tree
 ```
