@@ -43,3 +43,13 @@ Use:
 11 directories, 18 files
 ```
 
+## FFmpeg
+A complete, cross-platform solution to record, convert ands tream audio and video
+```
+brew install ffmpeg
+```
+
+Converting video and audo has never been so easy.
+```
+ffmpeg -i input.mp4 output.avi
+```
