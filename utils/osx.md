@@ -55,3 +55,17 @@ Converting video and audo has never been so easy.
 ```
 ffmpeg -i input.mp4 output.avi
 ```
+
+## Gifsicle
+
+Gifsicle is a command-line tool for creating, editing, and getting information about GIF images and animations. Making a GIF animation with gifsicle is easy
+
+Install:
+```
+brew install gifsicle
+```
+
+Use:
+```
+gifsicle --delay=10 --loop *.gif > anim.gif
+```
