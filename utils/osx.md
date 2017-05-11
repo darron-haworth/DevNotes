@@ -1,9 +1,12 @@
 # Some Utils for OSX
 
 ## Tree
-brew install tree
 
-Usage
+Intall:
+```
+brew install tree
+```
+Use:
 ```javascript
 ~/dh_code/test/MyFancyLibrary >> tree
 .
