@@ -69,3 +69,10 @@ Use:
 ```
 gifsicle --delay=10 --loop *.gif > anim.gif
 ```
+
+## Paragon Driver for Mac OS (10.9 and above)
+NTFS for MAC
+```
+http://www.seagate.com/support/downloads/item/ntfs-driver-for-mac-os-master-dl/
+```
+
